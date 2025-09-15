@@ -37,7 +37,7 @@ else:
 
 # change value - mutability 
 a = [10,20,30]
-a.insert(0,100) # at 0th index, insert 100
+a.insert(0,100) # before 0th index, insert 100
 print(a) #[100, 10, 20, 30]
 
 b = ["Kiran","Kunal"]
@@ -96,11 +96,13 @@ print(c) #[10, 50, 30, 40]
 
 d = [1,2,3,4,4,5]
 d[0:3] = [10,20,30] #[10, 20, 30, 4, 4, 5]
+# 0,1 & 2nd indexes hatao..and 10,20,30 full value put kardo
 print(d)
 
 
 d = [1,2,3,4,4,5]
 d[0:3] = [10,20,30,50]  #it will push all values
+# remove 0 to 2nd index values, and put 10,20,30,50 values 
 print(d) #[10, 20, 30, 50, 4, 4, 5]
 
 
@@ -202,7 +204,7 @@ m = [1,2,3]
 print(m)
 
 
-
+# List Comprehension 
 l1 = [1,2,3,4,5]
 l2 = [value**2 for value in l1]
 print(l2)  #[1, 4, 9, 16, 25]
