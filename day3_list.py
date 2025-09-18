@@ -263,7 +263,7 @@ print(x) # ['gsr', 987.89, True, 'rsa', 'coder', 34.56]
 
 '''
 - pop() method is used to remove an item at any specified index.
-By default if you are not giving any specified index, it will remove from the last element.
+By default if you are not giving any specified index, it will remove element from the last index.
 
 - remove() method is used to remove the specified element. 
 
